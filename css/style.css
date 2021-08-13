@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    background-color: #b3e4ff;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+nav{
+    text-align: right;
+    margin: 30px auto;
+    font-size: 25px;
+    font-weight: 500;
+}
+nav a{
+    color: #000;
+    text-decoration: none;
+    margin: 0 5px 0 0px;
+    padding: 5px 12px 7px 12px;
+    border: 1px solid #b3e4ff;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+nav a:hover{
+    color: #000;
+    border: 1px solid #000000;
+}
+
+
+.wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.picture,
+.details {
+    position: relative;
+}
+.bg_circle {
+    position: absolute;
+    width: 100%;
+    bottom: -40px;
+    left: 0;
+    z-index: -1;
+}
+.dp_image {
+    position: absolute;
+    width: 70%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.details {
+    height: 500px;
+    padding-left: 70px;
+}
+.title {
+    font-weight: bold;
+    font-size: 50px;
+}
+.description {
+    font-size: 35px;
+    width: 550px;
+    margin: 40px 0;
+}
+.contact{
+    font-size: 30px;
+    border: 2px solid #000;
+    background-color: transparent;
+    padding: 7px 20px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+.contact:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: #edf9ff;
+}
+.social{
+    float: right;
+    color: #000;
+    margin: 10px 0;
+}
+.social a{
+    color: #000;
+    margin-left: 20px;  
+    transition: 0.5s;
+}
+.social a:hover{
+    color: #8DD5FF;
+}
+
+.copyright, .social {
+    font-size: 25px;
+}
+.copyright p{
+    padding: 10px 0;
+}
